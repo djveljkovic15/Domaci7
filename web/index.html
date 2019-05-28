@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Title</title>
+
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body class="tabla">
+
+<h3>Coupons</h3>
+
+<button id="load-coupons-btn">Load coupon</button>
+
+<table id="coupons-tbl">
+    <thead>
+        <tr>
+            <th>Coupon Name</th>
+            <th>Shop Name</th>
+            <th>Discount Price</th>
+            <th>Original Price</th>
+            <th>Discount</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+<br><br>
+<form id="add-coupon-form">
+    <input type="text" name="couponName" placeholder="Coupon Name">
+     <!--<label id="shops-drop" >-->
+    <select id="shopName" name="shopName">
+
+    </select>
+    <!--</label>-->
+
+    <input type="number" name="discountPrice" placeholder="Discount Price">
+    <input type="number" name="originalPrice" placeholder="Original Price">
+    <input type="Submit" value="Submit">
+</form>
+<script src="js/script.js"></script>
+
+
+
+</body>
+</html>

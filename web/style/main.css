@@ -1,0 +1,23 @@
+td {
+    border: 1px solid black;
+}
+
+.tabla {
+    position: center;
+    z-index: 0;
+    background: #FFF;
+    max-width: 50%;
+    margin: 60px auto 60px;
+    padding: 45px;
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+td:nth-child(4n) {
+    background-color: red;
+}
+
+td:nth-child(3n) {
+    background-color: green;
+}
+
